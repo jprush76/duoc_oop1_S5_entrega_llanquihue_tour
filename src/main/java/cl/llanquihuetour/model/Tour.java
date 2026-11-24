@@ -23,7 +23,13 @@ public class Tour {
     // SETTERS
     public void setNombre(String nombre) { this.nombre = nombre; }
     public void setDuracion(String duracion) { this.duracion = duracion; }
-    public void setPrecio(int precio) { this.precio = precio; }
+    public void setPrecio(int precio) {
+        if (precio >= 0 ) {
+            this.precio = precio;
+        }  else {
+            System.out.println("ERROR: Precio negativo");
+        }
+    }
 
     @Override
     public String toString() {
