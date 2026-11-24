@@ -1,0 +1,6 @@
+rut;nombre;email;telefono;agencia;idioma;direccion;comuna;region;
+55555555-5;Juan Perez;juan@gmail.com;11111111;Latitud Sur;Inglés;Klenner 195;Puerto Varas;Región de los lagos;
+22222222-2;Angélica Ramos;guia345@gmail.com;22222222;Patagonia Premium;Español;Pedro Montt 345;Llanquihue;Región de los lagos;
+11111111-1;Alex Dinamarca;alexd@gmail.com;33333333;Turistik;Alemán;Presidente Ibáñez 1490;Puerto Montt;Región de los lagos;
+33333333-3;Margaret Watson;mwatson@gmail.com;12341234;Latam Tours;Inglés;Américo Vespucio 2438;Las Condes;Región Metropolitana;
+99999999-9;Alonso Fabregas;afabregas@gmail.com;22226666;turistik;Español;Seminario 555;Puerto Montt;Región de los lagos;
