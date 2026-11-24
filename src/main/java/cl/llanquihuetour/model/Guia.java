@@ -27,7 +27,7 @@ public class Guia extends Persona {
 
     @Override
     public String toString() {
-        String resultado = "\nGuía\n" + "====\n" +
+        String resultado = "Guía" + " -> " +
                 "{ rut='" + this.getRut() + "', "  +
                 "nombre='" + this.getNombre() + "', " +
                 "email='" + this.getEmail() + "', " +
