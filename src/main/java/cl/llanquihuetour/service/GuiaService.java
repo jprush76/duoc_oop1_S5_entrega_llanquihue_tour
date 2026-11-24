@@ -5,6 +5,10 @@ import cl.llanquihuetour.model.Guia;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase que representa el Servicio de la clase Guia
+ * Expone las funcionalidades de la data Guia.
+ */
 public class GuiaService {
     private final List<Guia> guias = new ArrayList<>();
 

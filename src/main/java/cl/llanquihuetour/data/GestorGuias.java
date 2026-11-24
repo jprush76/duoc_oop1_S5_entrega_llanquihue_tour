@@ -17,7 +17,7 @@ public class GestorGuias {
         for (int i = 1; i< filas.size();i++) {
             String[] datos = filas.get(i).split(";", -1);
             try {
-                if(datos.length != 10) throw new IllegalArgumentException("Cantidad de columnas no corresponde.");
+                if(datos.length != 9) throw new IllegalArgumentException("Cantidad de columnas no corresponde.");
                 listaDeGuias.add(new Guia(datos[0].trim(), datos[1].trim(), datos[2].trim(), datos[3].trim(), new Direccion(datos[6].trim(), datos[7].trim(), datos[8].trim()), datos[4].trim(), datos[5].trim()));
             } catch (IllegalArgumentException error) {
                 System.out.println("Fila " + (i + 1) + "ignorada: " + error.getMessage());
