@@ -1,7 +1,8 @@
+nombre;duración;precio
 Saltos del Petrohue;Full Day;35000
 Termas del Sol;Full Day;75000
 Laguna verde en grupo;Half Day;25000
-Ancud mágico;Full Day;55000
+Ancud mágico;Full Day
 Navegación Peulla;Full Day;75000
 Frutillar en bicicleta;Half Day;15000
 Termas de Puyehue;Full Day;135000
